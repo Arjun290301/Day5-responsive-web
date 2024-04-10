@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    background-color: grey;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.name{
+    background-color: rgb(253, 185, 1);
+    width: 200px;
+    height: 60px;
+    font-size:xx-large;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: -15px;
+    font-family:sans-serif;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.Avatar{
+    width: 160px;
+    height: 185px;
+    border-radius: 50%;
+    border: 5px dotted rgb(253, 185, 1);
+}
+.imgname{
+    margin-top: 50px;
+}
+.head2{
+    background-color: rgb(207, 207, 207);
+    width: 100%;
+    height: 35px;
+
+}
+.head3{
+    background-color: grey;
+    width: 100%;
+    height: 35px;
+
+}
+.address{
+    text-align: center;
+    padding: 10px;
+}
+.icon{
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: 4px dotted rgb(253, 185, 1); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-user{
+    color:rgb(253, 185, 1) ;
+}
+.fa-flask{
+    color:rgb(253, 185, 1) ;
+}
+.fa-briefcase{
+    color:rgb(253, 185, 1) ;
+}
+.fa-graduation-cap{
+    color:rgb(253, 185, 1) ;
+}
+.left{
+    padding: 20px;
+    width: 50%;
+    margin-left: 50px;
+}
+.main{
+    padding: 40px;
+    display: flex;
+}
+.icohead{
+    display: flex;
+    gap: 12px;
+}
+.dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px dotted rgb(253, 185, 1);
+}
+.hedding{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+    font-weight: bold;
+}
+.content{
+    padding: 12px;
+}
+.skills{
+    display: inline;
+    gap:30px;
+    padding: 12px;
+}
+.content-left{
+    display: flex;
+
+}
+.bars{
+    padding: 12px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap:9px
+}
+.right{
+    width: 50%;
+    border-left: 1px solid black;
+    padding-left: 12px;
+}
+h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+}
+.rightcont{
+    padding: 12px;
+}
+.right-head{
+    padding: 5%;
+}
+@media(max-width:1050px){
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left, .right {
+        width: 100% ;
+        border-left: none;
+    }
+
+}
